@@ -1,0 +1,1914 @@
+{
+  "mobileView": {
+    "title": "Manage your files, account and subscription on the app",
+    "logOut": "Log Out"
+  },
+  "featuresBanner": {
+    "label": "Save 85%!",
+    "title": "Protect what you love, forever!",
+    "subtitle": "Christmas Web App Theme + Chance to win up to 10TB of storage!",
+    "cta": "Choose plan",
+    "guarantee": "30-day money-back guarantee",
+    "lastCta": "*Offer is for free accounts or new customers",
+    "boldBottomText": "Special Offer! ",
+    "bottomText":" Win two Internxt x Swiss Peak backpacks",
+    "features": [
+      "A lifetime of privacy, one-time payment",
+      "End-to-end encrypted cloud storage",
+      "Open-source and audited",
+      "End-to-end encrypted transfers",
+      "No unauthorized access",
+      "Offer ends February 25th"
+    ]
+  },
+  "valentinesBanner": {
+    "title": "Love without limits!",
+    "subtitle": "Get 90% off our 2TB plan with code VDAY",
+    "cta": "Get the deal"
+  },
+  "banner": {
+    "label": "Secure your files forever",
+    "title": "Get lifetime access to secure, private cloud storage with Internxt!",
+    "cta": "Choose your plan",
+    "guarantee": "30-day money-back guarantee"
+  },
+  "notFound": {
+    "header": "Error 404",
+    "title": "Nothing to see here...",
+    "description": "The page you are looking for could not be found.",
+    "card1": {
+      "title": "Return Home",
+      "description": "Go back to Internxt Drive."
+    },
+    "card2": {
+      "title": "Visit Help Center",
+      "description": "Troubleshoot common issues and browse our FAQ."
+    },
+    "card3": {
+      "title": "Contact Support",
+      "description": "Reach out to our Support Team at hello@internxt.com."
+    }
+  },
+  "linkExpired": {
+    "title": "Link expired or deleted",
+    "description": "The link or invitation you visited has expired or has been removed"
+  },
+  "lang": {
+    "title": "Language",
+    "en": "English (English)",
+    "es": "Español (Spanish)",
+    "fr": "Français (French)",
+    "it": "Italiano (Italian)",
+    "zh": "简体中文 (Chinese)",
+    "ru": "Русский (Russian)",
+    "de": "Deutsch (German)",
+    "zh-tw": "臺灣 (Taiwan)"
+  },
+  "theme": {
+    "title": "Appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "starwars": "Star Wars",
+    "halloween": "Halloween",
+    "christmas": "Christmas",
+    "superBowl": "Super Bowl"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "terms1": "By creating an account, ",
+    "terms2": "you accept the terms & conditions",
+    "decrypting": "Decrypting...",
+    "login": {
+      "title": "Log in",
+      "forgotPwd": "Forgot your password?",
+      "dontHaveAccount": "Don't have an account?",
+      "createAccount": "Create account",
+      "2FA": "Two factor code",
+      "twoFactorAuthenticationCode": "Two factor authentication code",
+      "wrongLogin": "Invalid username or password"
+    },
+    "signup": {
+      "title": "Create account",
+      "haveAccount": "Already have an account?",
+      "login": "Log in",
+      "encrypting": "Encrypting",
+      "info": {
+        "normalText": "Internxt doesn’t store passwords.",
+        "boldText": "If you forget your password, you can download a backup key to regain access to your files.",
+        "cta": "Learn more"
+      }
+    },
+    "downloadBackupKey": {
+      "title": "Backup key",
+      "description": "The backup key enables account recovery in the event you forget your password. Never share it.",
+      "downloadCta": "Download backup key",
+      "settingsTab": "You can access your backup key in Settings > Security",
+      "skip": "Skip"
+    },
+    "forgotPassword": {
+      "title": "Account recovery",
+      "continue": "Continue",
+      "sending": "Sending...",
+      "notFound": "Email address not found, please try again",
+      "password": "Remember your password?",
+      "login": "Login",
+      "successTitle": "Check your inbox",
+      "successDescription": "We’ve sent you a one-time link to recover you account password",
+      "invalidEmail": "Invalid email address"
+    },
+    "recoverAccount": {
+      "title": "Account recovery",
+      "subtitle": "Do you have a backup key?",
+      "info": "What does the backup key look like?",
+      "info1": "The backup key file name is 'INTERNXT-BACKUP-KEY.txt'",
+      "info2": "The backup key is 24 words long",
+      "haveKeyButton": "Yes, I have a backup key",
+      "notKeyButton": "No, I don't have one",
+      "backupKey": {
+        "title": "Verify backup key",
+        "alert": "If you upload a wrong backup key your data will get corrupted, please make sure your backup key is correct.",
+        "button": "Upload backup key"
+      },
+      "changePassword": {
+        "title": "Change password",
+        "newPassword": "New Password",
+        "repeatNewPassword": "Repeat new password",
+        "notMatch": "Passwords don't match",
+        "submitButton": "Change password",
+        "notPasswordStrength": "Password must have a number",
+        "shortPasswordStrength": "Password must be at least 8 characters",
+        "warningPasswordStrength": "Password is weak",
+        "successPasswordStrength": "Password is strong",
+        "serverError": "Something went wrong while changing the password",
+        "tokenError": "An error occurred while validating the backup key",
+        "backupKeyError": "Uploaded backup key is invalid",
+        "emailSent": {
+          "title": "Password changed",
+          "description": "All your data has been re-encrypted and all your active sessions were logged out.",
+          "redirect": "Redirecting to Internxt Drive",
+          "button": "Go to Internxt Drive"
+        }
+      }
+    },
+    "restartAccount": {
+      "title": "Restart account",
+      "description": "Due to our end-to-end encryption and zero-knowledge policy, you are not able to access your data without either your password or a backup key.",
+      "alert1": "By restarting your account you understand that all your files, photos, and backups will be permanently deleted.",
+      "button": "Send account restart verification",
+      "successDescription": "Your account and password have been reset",
+      "error": "Something went wrong while restarting the account"
+    },
+    "universalLinkSuccess": {
+      "loginAs": "Log in as",
+      "openDesktopApp": "Open the desktop app",
+      "anotherAccount": "Use another account?",
+      "login": "Log in"
+    }
+  },
+  "checkout": {
+    "title": "You're almost there! Checkout securely",
+    "pay": "Pay",
+    "processing": "Processing...",
+    "checkout": "Checkout",
+    "authComponent": {
+      "signUp": {
+        "emailAddress": "Your email address",
+        "password": "Create password"
+      },
+      "signIn": {
+        "emailAddress": "Your email address",
+        "password": "Your password"
+      },
+      "title": {
+        "signUp": "Create an account",
+        "signIn": "Log in",
+        "userIsSignedIn": "User signed in as"
+      },
+      "emailMustNotBeEmpty": "Email must not be empty",
+      "privacyGuarantee": "Privacy guarantee: We do not share your information and will contact you only as needed to provide our service."
+    },
+    "addressBillingTitle": "Address Billing",
+    "addressBilling": {
+      "optional": {
+        "cta": "Optional",
+        "companyName": "Company name",
+        "companyVatId": "Company Vat ID"
+      }
+    },
+    "paymentTitle": "Select a payment method",
+    "productCard": {
+      "renewalPeriod": {
+        "renewsAt": "* Renews at",
+        "month": "month",
+        "year": "year",
+        "lifetime": "lifetime"
+      },
+      "title": "Order summary",
+      "selectedPlan": "Selected plan",
+      "numberOfUsers": "Number of users: {{seats}}",
+      "plan": {
+        "month": "{{spaceToUpgrade}} - 1 {{interval}} plan",
+        "year": "{{spaceToUpgrade}} - 1 {{interval}} plan",
+        "lifetime": "{{spaceToUpgrade}} - {{interval}} plan"
+      },
+      "billed": {
+        "month": "Billed monthly",
+        "year": "Billed annually",
+        "lifetime": "One-time payment"
+      },
+      "perUser": "/per user",
+      "saving": "You're saving {{percent}}%",
+      "planDetails": {
+        "title": "Plan details:",
+        "features": {
+          "individual": [
+            "{{spaceToUpgrade}} encrypted storage",
+            "Encrypted file and folder sharing",
+            "Password-protected file sharing",
+            "Access your files from any device",
+            "Get access to all our services",
+            "Two-factor authentication (2FA)",
+            "Premium customer support",
+            "30-day money-back guarantee"
+          ],
+          "business": [
+            "{{spaceToUpgrade}} storage/user",
+            "Encrypted file and folder sharing",
+            "Create and manage users & teams",
+            "Starting at {{minimumSeats}} users and up to {{maximumSeats}}",
+            "GDPR compliant",
+            "Manage account billing & payments",
+            "Premium customer support"
+          ]
+        }
+      },
+      "total": "Total ",
+      "totalForBusiness": "Total for {{N}} users: ",
+      "addCoupon": {
+        "buttonTitle": "Add coupon",
+        "inputText": "Coupon code"
+      },
+      "amountSaved": "Save ",
+      "apply": "Apply",
+      "withAnnualBilling": "with annual billing"
+    }
+  },
+  "general": {
+    "new": "new",
+    "of": "of",
+    "at": "at",
+    "terms": "Terms and conditions",
+    "contactSupport": "Contact Support",
+    "help": "Need help?",
+    "searchBar": {
+      "oldSearchBarPlaceholder": "Search this folder",
+      "placeholder": "Search in Drive",
+      "filters": {
+        "folder": "Folder",
+        "pdf": "PDF",
+        "image": "Image",
+        "video": "Video",
+        "audio": "Audio",
+        "clear": "Clear"
+      },
+      "emptyState": {
+        "title": "Find files and folders",
+        "subtitle": "Search by name and type"
+      },
+      "notFoundState": {
+        "title": "No results found",
+        "subtitle": "No files or folders match the search"
+      }
+    },
+    "stage": {
+      "development": "Development",
+      "production": "Production"
+    },
+    "loading": {
+      "default": "Loading...",
+      "redirecting": "Redirecting..."
+    },
+    "renewalPeriod": {
+      "monthly": "monthly",
+      "annually": "annually",
+      "lifetime": "Lifetime"
+    },
+    "renewal": {
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "lifetime": "Lifetime"
+    },
+    "workspaces": {
+      "personal": "Individuals",
+      "business": "Business"
+    },
+    "time": {
+      "month": "month"
+    },
+    "billing": {
+      "billedEachPeriod": "{{price}} billed {{period}}",
+      "oneTimePayment": "One-time payment"
+    },
+    "files": "Files",
+    "file": "File",
+    "folder": "Folder",
+    "reloadPageMessage": "Changes you have made may not have been saved."
+  },
+  "shareLayout": {
+    "title": "WE ARE INTERNXT",
+    "subtitle": "Secure cloud storage with unmatched privacy",
+    "labels": {
+      "privacy": "Privacy by design",
+      "open-source": "Open source and transparent",
+      "military-grade": "Military-grade encryption",
+      "zero-knowledge": "Zero-knowledge technology"
+    },
+    "tryInternxt": "Try out Internxt",
+    "topBar": {
+      "drive": "Go to Internxt Drive",
+      "downloadApp": "Download Desktop App",
+      "logout": "Log out",
+      "login": "Login",
+      "createAccount": "Create Account",
+      "getStarted": "Get started"
+    }
+  },
+  "shareItemPwdView": {
+    "title": "This link is password protected",
+    "putPwd": "Please enter the password provided",
+    "putPwd1": "by the sender for access.",
+    "password": "Password",
+    "pwdLayout": "Password",
+    "access": "Access"
+  },
+  "sideNav": {
+    "drive": "Drive",
+    "backups": "Backups",
+    "shared": "Shared",
+    "recents": "Recents",
+    "trash": "Trash",
+    "desktop": "Desktop"
+  },
+  "views": {
+    "recents": {
+      "head": "Recents",
+      "empty": {
+        "title": "No recent files available",
+        "description": "New uploads and recently opened files will appear here automatically",
+        "folderEmpty": "This folder is empty",
+        "folderEmptySubtitle": "Drag and drop files or select individual files to upload",
+        "uploadFiles": "Upload files",
+        "noResults": "There are no results for this search",
+        "dragNDrop": "Drag and drop here or click on upload button"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "avatar": {
+        "title": "Upload avatar",
+        "removePhoto": "Remove",
+        "updatePhoto": "Upload photo",
+        "dragNDrop": "Select or drop a picture",
+        "success": "Avatar has been successfully updated",
+        "error": "Something happened while uploading your avatar",
+        "removed": "Avatar successfully deleted",
+        "underLimitSize": "Please choose an image under 10MB of size"
+      },
+      "popover": {
+        "downloadApp": "Download app",
+        "settings": "Settings",
+        "logout": "Log out",
+        "spaceUsed": "{{space}}% space used"
+      },
+      "tabs": {
+        "account": {
+          "label": "Account",
+          "title": "Personal",
+          "usage": "Used {{totalUsed}} of {{totalSpace}}",
+          "view": {
+            "backups": "Backups",
+            "trash": "Trash",
+            "free": {
+              "planName": "Free plan",
+              "button": "Upgrade"
+            },
+            "lifetime": {
+              "planName": "Lifetime"
+            },
+            "subscription": {
+              "planName": "Subscription",
+              "button": "Change",
+              "yearly": "year",
+              "monthly": "month"
+            }
+          },
+          "accountDetails": {
+            "head": "Account details",
+            "name": "Name",
+            "lastname": "Lastname",
+            "card": {
+              "name": "Name",
+              "lastname": "Lastname",
+              "edit": "Edit",
+              "email": "Email",
+              "resendEmail": "Resend verification email"
+            },
+            "verify": {
+              "verify": "Verify your email",
+              "verified": "Verified email",
+              "description": "Check your inbox"
+            },
+            "editProfile": {
+              "title": "Edit account details",
+              "name": "Name",
+              "lastname": "Lastname",
+              "updatedProfile": "Profile updated successfully",
+              "errorUpdatingProfile": "We could not update your profile"
+            },
+            "changeEmail": {
+              "title": "Change email",
+              "email": "Email",
+              "newEmail": "New email",
+              "password": "Password",
+              "errorSameEmail": "New email should be different from the current one",
+              "errorPassword": "Wrong password, try again",
+              "sendVerification": "Send verification",
+              "sendingVerification": "Sending verification",
+              "sucessSendingVerification": "Email verification sent to {{email}}",
+              "errorSendingVerification": "Error sending verification",
+              "confirm": "Confirm"
+            },
+            "errorMsg" : {
+              "nameError": "The name must be between one and twenty characters",
+              "lastnameError": "The last name must be between one and twenty characters"
+            }
+          },
+          "support": {
+            "title": "Support",
+            "description": "Navigate helpful articles or get assistance from our team.",
+            "cta": "Open Support Centre"
+          },
+          "deleteAccount": {
+            "head": "Delete account",
+            "description": "All your personal data and everything you uploaded to Internxt will be erased forever. Once you delete your account, there is no going back. Please be certain.",
+            "isSubscribed": "Please, cancel your subscription first",
+            "confirmationEmail": "Confirmation email sent"
+          }
+        },
+        "billing": {
+          "label": "Billing",
+          "currentPlan": "Current plan",
+          "subsRenew": "Subscription renews in {{daysUntilRenewal}} days",
+          "cancelSubscriptionModal": {
+            "title": "Cancel subscription",
+            "description": {
+              "individual": "You are about to cancel your {{currentPlanName}} Internxt plan. By cancelling your plan, you will be downgraded to free Internxt {{freePlanName}} plan. Confirm your choice to proceed, please.",
+              "business": "By cancelling your plan, the workspace will be deleted along with all data. Confirm your choice to proceed, please."
+            },
+            "keepSubscription": "Keep subscription",
+            "continue": "Continue",
+            "cancelSubscription": "Cancel subscription",
+            "infoBox": {
+              "titleCurrent": "Current",
+              "titleNew": "New",
+              "year": "year",
+              "month": "month",
+              "free": "Free",
+              "reachedFreeLimit": "You are over {{freePlanName}}",
+              "reachedFreeLimitDescription": "As you are currently using {{currentUsage}}, your Internxt Drive will stop syncing your files and you won't be able to add new files"
+            },
+            "giveUsFeedback": "Tell us why you want to cancel your {{currentPlanName}} Internxt plan and downgrade to free plan?",
+            "feedback": {
+              "placeholder": "Give us some feedback"
+            },
+            "coupon": {
+              "title": "3 MONTHS",
+              "subtitle": "FREE",
+              "text1": "By keeping your",
+              "text2": "subscription you will get the next 3 months for free. This is a one-time deal.",
+              "continue": "Get 3 months FREE"
+            }
+          },
+          "billed": "Billed {{interval}} {{renewDate}}",
+          "paymentMethod": {
+            "head": "Payment method",
+            "empty": {
+              "title": "You are on free plan",
+              "subtitle": "Credit card information will appear here automatically when you have a paid subscription plan."
+            },
+            "title": "Add new payment method",
+            "contactUs": {
+              "description": "Contact us to update your payment method",
+              "contact": "Contact"
+            }
+          },
+          "invoices": {
+            "head": "Invoices",
+            "billingDate": "Date",
+            "storage": "Storage",
+            "ammount": "Ammount",
+            "plan": "Plan",
+            "empty": "There is no invoice available",
+            "download": "Download invoice"
+          }
+        },
+        "info": {
+          "title": "Personal",
+          "description": "Check your storage user and account details",
+          "advice1": {
+            "title": "What data can be edited?",
+            "description": "For strict security reasons and to protect your data at Internxt we do not allow the data of a user account such as email to be modified."
+          },
+          "advice2": {
+            "title": "Security account",
+            "description": "Your files are encrypted before leaving your device, so only you can access your files, no tricks, no hidden things, just privacy, that’s Internxt."
+          }
+        },
+        "plans": {
+          "label": "Plans",
+          "title": "Plans",
+          "description": "Find the different storage and solution options that Internxt offers",
+          "changeWorkspace": {
+            "personal": "Change to Plans for Individuals",
+            "business": "Change to Plans for Business"
+          },
+          "viewAllFeatures": "View all features",
+          "card": {
+            "annually": "{{amount}} billed annually",
+            "monthly": "{{amount}} per month",
+            "lifetime": "{{amount}}",
+            "oneTimePayment": "One-time payment"
+          },
+          "features": {
+            "title": "Features included in all plans",
+            "sections": {
+              "section1": {
+                "title": "Satisfaction guaranteed",
+                "point1": "All subscriptions have 30-day money-back guarantees.",
+                "point2": "Cancel any time, no tricks.",
+                "point3": "Premium support."
+              },
+              "section2": {
+                "title": "Secure by default",
+                "point1": "Military-grade encryption to ensure your privacy.",
+                "point2": "Encrypted file storage and sharing.",
+                "point3": "Zero-knowledge cloud storage."
+              },
+              "section3": {
+                "title": "Unlimited access and sync",
+                "point1": "Access your files, photos, and backups from all your devices.",
+                "point2": "Sync with unlimited bandwidth.",
+                "point3": "Backup any folder on your computer."
+              }
+            }
+          },
+          "dialog": {
+            "title": "Change plan",
+            "subtitle1": "You are about to change your Internxt plan from ",
+            "subtitle2": " to ",
+            "subtitle3": ". Confirm your choice to proceed, please.",
+            "plan": {
+              "current": "Current",
+              "new": "New",
+              "interval": "month"
+            },
+            "alert": {
+              "title": "You are over ",
+              "text1": "Because you are using ",
+              "text2": ", your Internxt Drive will stop syncing your files and you won’t be able to add new files"
+            },
+            "message": {
+              "text": "You'll be charged now and for each payment period until further change."
+            },
+            "button": {
+              "back": "Keep current plan",
+              "continue": "Continue"
+            }
+          }
+        },
+        "password": {
+          "title": "Password",
+          "description": "Change your password",
+          "advice1": {
+            "title": "Change password",
+            "description": "Changing your password will sign you out from all your devices. The password introduced will be needed for logging in again."
+          },
+          "advice2": {
+            "title": "What should you keep in mind so that your password is secure?",
+            "description": ""
+          },
+          "advice3": {
+            "title": "New encryption key",
+            "description": "By changing your password, all your files will be un-encrypted with your old password, and then re-encrypted using your new password, and thus you won't lose access to them! This action cannot be undone."
+          },
+          "advice4": {
+            "title": "What data can be edited?",
+            "description": "For strict security reasons and to protect your data at Internxt we do not allow the data of a user account such as email to be modified."
+          }
+        },
+        "security": {
+          "label": "Security",
+          "lock": {
+            "title": "Enter your password to continue",
+            "description": "For security reasons, you must enter your password before being able to make any changes on this page.",
+            "inputLabel": "Password",
+            "errors": {
+              "incorrect": "Incorrect password, please try again",
+              "notVerified": "We could not verify your password"
+            }
+          },
+          "changePassword": {
+            "title": "Change password",
+            "description": "We don’t store passwords, if you lose your password, you’ll lose access to your Internxt Account.",
+            "button": "Change password"
+          },
+          "2FA": {
+            "title": "Two-factor authentication",
+            "titleDisable": "Disable Two-Factor Authentication",
+            "description": "Add an extra layer of security by requiring an extra verification code when you log in.",
+            "button": "Enable",
+            "disable": "Disable",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "modal": {
+              "title": "Two-Factor Authentication",
+              "stepsLabel": "{{current}} of {{total}}",
+              "button": "Enable",
+              "2FALabelCode": "Two-Factor Authentication code",
+              "or": "OR",
+              "steps": {
+                "download": {
+                  "title": "Download Authy",
+                  "description": "We recommend using Authy, but you can setup the 2FA process with any other 2FA of your choice."
+                },
+                "qr": {
+                  "title": "Scan QR with the 2FA app",
+                  "description": "If you are unable to scan the QR, insert this code into the app."
+                },
+                "backup-key": {
+                  "title": "Save backup key",
+                  "description": "Copy this code and keep it secure, you will need it in case you lose your device."
+                },
+                "enable": {
+                  "title": "Confirm 2FA activation",
+                  "description": "Two-factor authentication code"
+                },
+                "disable": {
+                  "title": "Disable Two-Factor Authentication",
+                  "description": "To disable Two-Factor Authentication, type the code generated by the app into the input below."
+                }
+              },
+              "errors": {
+                "incorrect": "The code is not correct, try again",
+                "notVerified": "We could not verify your code"
+              }
+            }
+          },
+          "backupKey": {
+            "title": "Backup key",
+            "description": "The backup key enables account recovery in the event you forget your password. Never share it.",
+            "button": "Export backup key",
+            "success": "Backup key downloaded successfully",
+            "error": "We could not generate your backup key"
+          },
+          "faq": {
+            "title": "Did you miss anything?",
+            "faq1": {
+              "title": "Why do I lose all my files if I forget my password?",
+              "description": "Your password is the only way to access your account. The Internxt team has absolutely no access to your account and is therefore unable to change your password. This is done to prevent any unauthorized access to your account and personal information. <br/><br/>You may restore your account without your password if you have created a backup key. You can export a copy of your unique backup key by visiting the “Security” tab in “Settings.” Your backup key may be used to recover your account by selecting “Forget password” at login and following the instructions in the subsequent email."
+            },
+            "faq2": {
+              "title": "How can I keep my credentials safe?",
+              "description": "We recommend you use a reputable password manager to store your password. Not just to store your credential for Internxt, but to also keep your other online accounts safe as well."
+            },
+            "faq3": {
+              "title": "Can I recover my account with a backup key?",
+              "description": "If you still have access to your unique encryption key, you can recover your data without your password. To do so, please follow the steps outlined in the email you will receive by clicking “Forgot password.”"
+            },
+            "faq4": {
+              "title": "Do I lose all my files if I change my password?",
+              "description": "No. Since you are already logged into your account, you can change your password without losing anything. Be sure to choose a strong password that has not been found in any data breach."
+            }
+          }
+        }
+      }
+    },
+    "emailVerification": {
+      "success": {
+        "title": "Email verified successfully",
+        "subtitle": "You can close this tab now",
+        "cta": "Open Internxt Drive"
+      },
+      "error": {
+        "title": "Something went wrong",
+        "subtitle": "Check if the link is correct or request email verification again in Settings > Account",
+        "cta": "Go to Account"
+      },
+      "message": {
+        "emailNotVerifiedPartOne": "Your email is not verified yet, please check your inbox or ",
+        "emailNotVerifiedPartTwo": "resend verification"
+      }
+    },
+    "emailChange": {
+      "password": "Password",
+      "auth": {
+        "title": "Verify email change",
+        "subtitle": "Your account email will be changed to {{email}}",
+        "wrongPassword": "Wrong password, please try again",
+        "cta": "Continue"
+      },
+      "success": {
+        "title": "Email changed successfully",
+        "subtitle": "You can close this tab now",
+        "cta": "Open Internxt Drive"
+      },
+      "error": {
+        "title": "Something went wrong",
+        "subtitle": "Check if the link is correct or request email change again in Settings > Account",
+        "cta": "Go to Account"
+      },
+      "expired": {
+        "title": "Verification link expired",
+        "subtitle": "You can request email change again in Settings > Account",
+        "cta": "Go to Account"
+      }
+    },
+    "redirectToApp": {
+      "message": "Thank you",
+      "goToApp": "Go back to app"
+    },
+    "preferences": {
+      "workspace": {
+        "overview": {
+          "edit": "Edit profile",
+          "address": "Address",
+          "phone": "Phone",
+          "owner": "Owner",
+          "workspaceOverview": "Workspace overview",
+          "members": "Members",
+          "teams": "Teams",
+          "billed": "Billed on {{renewDate}}",
+          "spaceUsed": "Space used ({{percentageUsed}}%)",
+          "totalSpace": "Total space",
+          "editOverviewDetails": {
+            "title": "Profile Details",
+            "cancelButton": "Cancel",
+            "saveButton": "Save Changes"
+          },
+          "errors": {
+            "minNameLength": "The company name must have at least 3 characters"
+          }
+        },
+        "billing": {
+          "editBilling": "Edit Billing",
+          "billingDetails": "Billing details",
+          "updatedBillingDetails": "Details updated successfully",
+          "errorUpdatingBillingDetails": "There was an error updating your details. Please try again in a few minutes"
+        }
+      }
+    }
+  },
+  "contextMenu": {
+    "itemsSelected": "items selected"
+  },
+  "modals": {
+    "renameItemDialog": {
+      "title": "Rename",
+      "label": "Name"
+    },
+    "renameModal": {
+      "title": "Item already exists",
+      "titleMultipleItems": "Multiple items already exist",
+      "description": "{{itemName}} already exists in this location. Do you want to replace it or you want to keep both?",
+      "multipleDescription": "More than one element already exists in this location. Do you want to replace them or you want to keep all",
+      "replaceItem": "Replace current item",
+      "keepBoth": "Keep both",
+      "upload": "Upload",
+      "move": "Move"
+    },
+    "removeSharedLinkModal": {
+      "title": "Delete link",
+      "multiSharedDescription": "Users with the links will lose access to the shared content",
+      "singleSharedDescription": "Users with the link will lose access to the shared content",
+      "cancel": "Cancel",
+      "deleteLinks": "Delete links",
+      "deleteLink": "Delete link"
+    },
+    "newFolderModal": {
+      "title": "New folder",
+      "label": "Name",
+      "placeholder": "Untitled folder",
+      "untitled": "Untitled folder"
+    },
+    "itemDetailsModal": {
+      "title": "Details",
+      "fileCta": "Open preview",
+      "folderCta": "Open folder",
+      "itemDetails": {
+        "name": "Name",
+        "type": "Type",
+        "uploaded": "Uploaded",
+        "uploadedBy": "Uploaded by",
+        "shared": "Shared",
+        "size": "Size",
+        "modified": "Modified",
+        "location": "Location"
+      }
+    },
+    "shareModal": {
+      "title": "Share \"{{name}}\"",
+      "list": {
+        "peopleWithAccess": "People with access",
+        "invite": "Invite",
+        "userItem": {
+          "roles": {
+            "owner": "Owner",
+            "editor": "Editor",
+            "reader": "Viewer"
+          },
+          "remove": "Remove"
+        }
+      },
+      "errors": {
+        "updatingRole": "The role could not be updated, please try again later.",
+        "copy-to-clipboard": "Error sharing item, try again later.",
+        "update-sharing-access": "The acces mode could not be updated, please try again later"
+      },
+      "general": {
+        "generalAccess": "General access",
+        "accessOptions": {
+          "public": {
+            "title": "Public",
+            "subtitle": "Anyone with the link can access"
+          },
+          "restricted": {
+            "title": "Restricted",
+            "subtitle": "Only people added can access"
+          },
+          "stopSharing": "Stop sharing"
+        },
+        "copyLink": "Copy link"
+      },
+      "requests": {
+        "title": "Access requests",
+        "button": "Requests",
+        "empty": "No requests left",
+        "actions": {
+          "accept": "Accept",
+          "deny": "Deny",
+          "roles": {
+            "editor": "Editor",
+            "reader": "Viewer"
+          }
+        }
+      },
+      "stopSharing": {
+        "title": "Stop sharing?",
+        "subtitle": "No one will be able to access \"{{name}}\"",
+        "cancel": "Cancel",
+        "confirm": "Stop sharing",
+        "notification": {
+          "success": "No longer sharing \"{{name}}\"",
+          "error": "Couldn't stop sharing, please try again"
+        }
+      },
+      "stopSharingAndMoveToTrash": {
+        "title": "Move to trash?",
+        "subtitle": "Users with the link or invited will no longer have access to \"{{name}}\"",
+        "multipleItemsSubtitle": "Users with the link or invited will no longer have access to these shared items",
+        "cancel": "Cancel",
+        "confirm": "Move to trash",
+        "notification": {
+          "success": "No longer sharing \"{{name}}\"",
+          "successForMultipleItems": "No longer sharing these items",
+          "error": "Couldn't move to trash, please try again"
+        }
+      },
+      "removeUser": {
+        "notification": {
+          "success": "User \"{{name}}\" removed",
+          "error": "Couldn't remove user \"{{name}}\", please try again"
+        }
+      },
+      "invite": {
+        "title": "Invite people",
+        "textarea": "Enter your message text (optional)",
+        "notifyUsers": "Notify users",
+        "instructions": "Press enter or comma to separate emails",
+        "duplicatedEmail": "The email address already exists",
+        "email": "Type email",
+        "invite": "Invite",
+        "editor": "Editor",
+        "reader": "Viewer",
+        "listUsers": "Users to invite",
+        "successSentInvitation": "Successful sharing with {{email}}",
+        "acceptedSuccessfully": "Shared folder invitation successfully accepted",
+        "declinedSuccessfully": "Shared folder invitation successfully declined",
+        "inviteNewUsersBody": "People without an Internxt account will be sent a signup invitation email.",
+        "inviteNewUsersTitle": "Invite new users?",
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "error": {
+          "errorInviting": "Error sending invitation to {{email}}",
+          "userAlreadyInvited": "The user {{email}} has already been invited",
+          "acceptedError": "Error accepting invitation to shared folder",
+          "declinedError": "Error declining invitation to shared folder"
+        }
+      },
+      "requestAccess": {
+        "title": "You don't have access",
+        "description": "Request access to the owner or switch to an account with access.",
+        "textarea": "Message (optional)",
+        "requestButton": "Request access",
+        "logged": "Logged in as",
+        "change": "Change",
+        "requestSent": "Request Sent",
+        "confirmation": "You will get an email if the file/folder is shared with you"
+      },
+      "protectSharingModal": {
+        "protectTooltipText": "Password is only required for users without viewer or editor access to the shared item.",
+        "protect": "Protect with password",
+        "disablePasswordTitle": "Disable password protection?",
+        "disablePasswordBody": "When disabled, people with the link will be able to access the content.",
+        "editPasswordTitle": "Edit password",
+        "buttons": {
+          "cancel": "Cancel",
+          "save": "Save",
+          "disable": "Disable",
+          "changePassword": "Change password"
+        }
+      }
+    },
+    "sharedInvitationsModal": {
+      "empty": "No invitations left",
+      "title": "Pending invitations",
+      "accept": "Accept",
+      "deny": "Decline",
+      "sharedWith": "Shared with you ",
+      "todayAt": "today at "
+    },
+    "friendsInvitedModal": {
+      "title": "Friends invited",
+      "email": "Email",
+      "total": "Total",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "empty": "You have not invited anyone yet",
+      "resend": "Resend invitation",
+      "resentInvitation": "Invitation resent successfully",
+      "resendError": "Error while resending email: {{reason}}"
+    },
+    "deleteAccountModal": {
+      "title": "Delete account",
+      "subtitle": "By deleting your account, Internxt will permanently delete your files and data forever. Once initiated, this action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "changePasswordModal": {
+      "title": "Change password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "strongPassword": "Password is strong",
+      "errors": {
+        "longPassword": "The password can have a maximum of 50 characters",
+        "shortPassword": "Password has to be at least 8 characters long",
+        "notComplex": "Password is not complex enough",
+        "weakPassword": "Password is weak",
+        "doesntMatch": "Password confirmation does not match the password"
+      }
+    },
+    "deleteBackupModal": {
+      "title": "Are you sure?",
+      "subtitle": "Your backup will be deleted.",
+      "primaryAction": "Confirm",
+      "secondaryAction": "Cancel"
+    },
+    "2FAAuthenticationModal": {},
+    "shareWithTeamModal": {
+      "title": "Share \"{{name}}\"",
+      "teams": "Teams",
+      "teamsWithAcces": "Teams with Access:",
+      "shareButton": "Share"
+    }
+  },
+  "form": {
+    "fields": {
+      "email": {
+        "placeholder": "Email address"
+      }
+    }
+  },
+  "error": {
+    "wrongPassword": "Wrong password, try again or contact link owner",
+    "genericError": "There was an error: {{reason}}",
+    "serverError": "Internal server error. Try again later",
+    "deleteTeamMember": "Error deleting team member",
+    "changingName": "Error during name change",
+    "fileAlreadyExists": "File with the same name already exists",
+    "folderAlreadyExists": "A folder with the same name already exists",
+    "folderInvalidName": "The folder name is not valid",
+    "folderCannotBeEmpty": "Folder name cannot be empty",
+    "fileCannotBeEmpty": "File name cannot be empty",
+    "creatingFolder": "Error during folder creation",
+    "sendReferralInvitation": "Could not send invitation email",
+    "sendClaimEmail": "Could not send claim email",
+    "anyReferralCredit": "You don\t have any credit on your account",
+    "backupKeyDontMatch": "The backup key inserted does not match your unique backup key",
+    "shareLinkMissingBucket": "Cannot generate share link due to missing bucket",
+    "unavailableLink": "Unavailable link",
+    "invalidActivationCode": "Your activation code is invalid. Maybe you have used this link before and your account is already activated",
+    "redirectToStripe": "Failed to redirect to Stripe. Please contact us. Reason: {{reason}}",
+    "deactivatingAccount": "Error deactivating account. Please contact us.",
+    "fetchingFolderContent": "Error fetching folder content",
+    "uploadingFolder": "Error uploading folder",
+    "uploadingFile": "Error uploading file: {{reason}}",
+    "uploadingItems": "Some of the elements could not be uploaded",
+    "downloadingFile": "Error downloading file: {{message}}",
+    "downloadingFolder": "Error downloading folder: {{message}}",
+    "downloadingItems": "Some of the elements could not be downloaded",
+    "movingItemInsideItself": "You can't move a folder inside itself",
+    "movingItem": "Error when moving item/s",
+    "renamingItem": "Error when renaming item/s",
+    "linkExpired": "This secure link has expired",
+    "teamInvitation": "The invitation email could not be sent",
+    "storageIsFull": "Your storage is full",
+    "storageIsFullDescription": "You can’t upload, sync or backup files.",
+    "noSpaceAvailable": "You’ve reached the limits of your current plan and sync has stopped. Upgrade now to keep your files synced securely.",
+    "sharedFolderTooBig": "Internxt Drive does not support sharing folders of more than 1GB.",
+    "titleSharedFolderTooBig": "Unsupported Action",
+    "workingOnIt": "We are working to bring you a better experience.",
+    "noFilePreview": "No file preview available",
+    "browserNotSupported": "Browser not supported ({{userAgent}})",
+    "subscribeToNewsletter": "Error subscribing to newsletter: {{message}}",
+    "lastPasswordError": "The password you entered as your last seems not to be valid. Try again, and if the problem persists, please contact our support.",
+    "incorrectPassword": "The current password you introduce doesn't match. Please make sure it is correct.",
+    "emptyPassword": "Previous password must not be empty",
+    "errorMovingToTrash": "An error occurred while moving the items to trash.",
+    "errorDeletingFromTrash": "An error occurred while deleting the items from trash.",
+    "maxSizeUploadLimitError": "File too large (greater than 40GB)",
+    "connectionLostError": "Internet connection lost",
+    "errorLoadingTrashItems": "Error loading trash items"
+  },
+  "backups": {
+    "backups-from": "Backups from {{deviceName}}",
+    "your-devices": "Your devices",
+    "back-to-devices": "Go back to devices",
+    "empty": {
+      "title": "No backups available",
+      "subtitle": "Set up and manage your backups on the Internxt desktop app",
+      "downloadApp": "Download desktop app"
+    },
+    "devices-list": {
+      "columns": {
+        "name": "Name",
+        "last-update": "Last update",
+        "size": "Size"
+      }
+    },
+    "backups-list": {
+      "columns": {
+        "name": "Name",
+        "last-update": "Last update",
+        "size": "Size",
+        "actions": "Actions"
+      }
+    },
+    "dropdown": {
+      "download": "Download",
+      "delete": "Delete permanently"
+    }
+  },
+  "shared": {
+    "errors": {
+      "notSharedFolder": "This folder is not shared with you",
+      "folderNotExists": "This folder not exists",
+      "generic": "The folder could not be accessed"
+    }
+  },
+  "shared-links": {
+    "shared-links": "Shared",
+    "view": "views",
+    "list": {
+      "name": "Name",
+      "link-content": "Link content",
+      "shared": "Shared",
+      "created": "Created",
+      "size": "Size",
+      "owner": "Owner"
+    },
+    "empty-state": {
+      "title": "Nothing shared with you yet",
+      "subtitle": "Folders that other people share with you will appear here"
+    },
+    "item-menu": {
+      "copy-link": "Copy link",
+      "link-settings": "Share settings",
+      "delete-link": "Delete link",
+      "delete-links": "Delete links"
+    },
+    "link-settings": {
+      "share-settings": "Share settings",
+      "views": "Views",
+      "options": "Options",
+      "copy-link": "Copy link",
+      "save": "Save",
+      "saving": "Saving",
+      "save-close": "Save and close",
+      "close": "Close"
+    },
+    "toast": {
+      "copy-to-clipboard": "Link copied to clipboard",
+      "link-updated": "Link settings updated",
+      "link-deleted": "Link deleted",
+      "links-deleted": "Link(s) deleted",
+      "error-deleting-links": "An error occurred deleting links"
+    }
+  },
+  "trash": {
+    "trash": "Trash",
+    "clearTrash": "Trash has been cleared",
+    "list": {
+      "name": "Name",
+      "size": "Size",
+      "moved-to-trash": "Moved to trash"
+    },
+    "empty-state": {
+      "title": "Drive trash is empty",
+      "subtitle": "Deleted files and folders will appear here"
+    },
+    "item-menu": {
+      "restore": "Restore",
+      "delete-permanently": "Delete permanently"
+    }
+  },
+  "tasks": {
+    "messages": {
+      "allProcessesHaveFinished": "All processes have finished",
+      "processing": "Processing {{pending}} of {{finished}}"
+    },
+    "waiting": "Waiting",
+    "paused": "Paused",
+    "create-folder": {
+      "status": {
+        "pending": "Pending to create folder",
+        "in-process": "Creating folder",
+        "success": "Folder created",
+        "error": "Error during folder creation",
+        "cancelled": "Folder creation cancelled"
+      },
+      "errors": {}
+    },
+    "upload-file": {
+      "status": {
+        "pending": "Waiting to upload",
+        "encrypting": "Encrypting file",
+        "in-process": "{{progress}}% Uploading file",
+        "success": "File uploaded",
+        "error": "Error during upload",
+        "cancelled": "Upload cancelled"
+      },
+      "errors": {}
+    },
+    "upload-folder": {
+      "status": {
+        "pending": "Waiting to upload",
+        "encrypting": "Encrypting files",
+        "in-process": "{{progress}}% Uploading folder",
+        "success": "Folder uploaded",
+        "error": "Error during upload",
+        "cancelled": "Upload cancelled"
+      },
+      "errors": {}
+    },
+    "download-file": {
+      "status": {
+        "pending": "Pending to download",
+        "decrypting": "Decrypting file",
+        "in-process": "{{progress}}% Downloading file",
+        "success": "File downloaded",
+        "error": "Download failed, click ↻ to retry",
+        "cancelled": "Download cancelled"
+      },
+      "errors": {}
+    },
+    "download-backup": {
+      "status": {
+        "pending": "Pending to download",
+        "decrypting": "Decrypting backup",
+        "in-process": "{{progress}}% Downloading backup",
+        "success": "Backup downloaded",
+        "error": "Error during download",
+        "cancelled": "Download cancelled"
+      },
+      "errors": {}
+    },
+    "download-folder": {
+      "status": {
+        "pending": "Pending to download",
+        "decrypting": "Decrypting files",
+        "in-process": "{{progress}}% Downloading folder",
+        "in-process-without-progress": "Downloading folder",
+        "success": "Folder downloaded",
+        "error": "Download failed, click ↻ to retry",
+        "cancelled": "Download cancelled"
+      },
+      "errors": {}
+    },
+    "move-file": {
+      "status": {
+        "pending": "Pending to move",
+        "in-process": "Moving file",
+        "success": "File moved",
+        "error": "Error during movement",
+        "cancelled": "Cancelled movement"
+      },
+      "errors": {
+        "409": "A file with that name already exists in the destination folder"
+      }
+    },
+    "move-folder": {
+      "status": {
+        "pending": "Pending to move",
+        "in-process": "Moving folder",
+        "success": "Folder moved",
+        "error": "Error during movement",
+        "cancelled": "Cancelled movement"
+      },
+      "errors": {
+        "409": "A folder with that name already exists in the destination folder"
+      }
+    },
+    "rename-file": {
+      "status": {
+        "pending": "Pending to rename",
+        "in-process": "Renaming file",
+        "success": "File renamed",
+        "error": "Error during renaming",
+        "cancelled": "Cancelled renaming"
+      },
+      "errors": {}
+    },
+    "rename-folder": {
+      "status": {
+        "pending": "Pending to rename",
+        "in-process": "Renaming folder",
+        "success": "Folder renamed",
+        "error": "Error during renaming",
+        "cancelled": "Cancelled renaming"
+      },
+      "errors": {}
+    },
+    "subtitles": {
+      "upload-failed": "Upload failed"
+    },
+    "generalErrorMessages": {
+      "retryUploadFailed": "Something went wrong when retrying the upload. Try uploading again",
+      "retryDownloadFailed": "Something went wrong while retrying the download. Please try downloading again.",
+      "openUploadedFileFailed": "Something went wrong while trying to open the file",
+      "openUploadedFolderFailed": "Something went wrong while trying to navigate to the folder"
+    }
+  },
+  "success": {
+    "passwordChanged": "Password changed successfully",
+    "teamInvitationSent": "Invitation email sent to {{email}}",
+    "referralInvitationSent": "Invitation email sent to {{email}}",
+    "deletedTeamMember": "The {{resource}} has been successfully deleted",
+    "accountDeactivationEmailSent": "Deactivation email sent!",
+    "claimEmailSent": "Claim email sent!",
+    "teamsSubscriptionRedeemed": "Your team is ready! Log in again to start using Teams",
+    "linkCopied": "Link copied!",
+    "twoFactorAuthActivated": "Your Two-Factor Authentication has been activated!",
+    "twoFactorAuthDisabled": "Your Two-Factor Authentication has been disabled",
+    "joinedToTheTeam": "You have successfully joined to the team",
+    "done": "Done",
+    "subscribeToNewsletter": "{{email}} successfully subscribed to newsletter"
+  },
+  "shareItemDialog": {
+    "title": "Link settings",
+    "access": "Access",
+    "protect": "Protect with password",
+    "addSecurePassword": "Secure this link by setting up a password",
+    "password": "Password",
+    "views": "Views",
+    "noViewsYet": "No views yet",
+    "dateCreated": "Date created",
+    "buttons": {
+      "copyLink": "Copy link",
+      "linkCopied": "Link copied",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "notificationMessages": {
+    "copyLink": "Shared link copied to clipboard",
+    "linkUpdated": "Link updated",
+    "itemsMovedToTrash": "{{item}} moved to trash",
+    "restoreItems": "{{itemsToRecover}} restored successfully",
+    "moveItems": "{{itemsToMove}} moved successfully",
+    "storageModified": "Storage modified successfully",
+    "membersUpdatedSuccessfully": "Members updated successfully",
+    "errorModifyingStorage": "The new storage is not valid for this member.",
+    "generalErrorWhileModifyingStorage": "Something went wrong while modifying storage",
+    "itemDeleted": "{{item}} deleted",
+    "itemsDeleted": "Files deleted",
+    "emailNotEmpty": "Email must not be empty",
+    "verificationEmail": "Verification email has been sent",
+    "successCancelSubscription": "Your subscription has been cancelled",
+    "errorCancelSubscription": "Something went wrong while cancelling your subscription",
+    "errorCreatingSubscription": "Something went wrong while creating your subscription",
+    "successApplyCoupon": "3 months free of charge applied",
+    "errorApplyCoupon": "An error occurred while applying the discount",
+    "alreadyAppliedCoupon": "The coupon has been already applied",
+    "errorPurchaseBusinessPlan": "You already have a business plan.",
+    "couponIsNotValidForUserError": "Coupon can only be redeemed by new customers",
+    "errorApplyingCoupon": "Something went wrong while applying the coupon",
+    "invalidTaxIdIsProvided": "The provided Tax ID is invalid",
+    "errorWhileFetchingMoreItems": "Something went wrong while fetching more items",
+    "errorDeletingItems": "Something went wrong while deleting this item",
+    "errorFetchingWorkspace": "Error while fetching workspace {{error}}",
+    "errorSettingUpWorkspace": "Error while setting up the workspace {{error}}",
+    "errorWhileLoadingWorkspace": "Error while loading the workspace {{error}}",
+    "errorFetchingWorkspaceCredentials": "Error while fetching workspace credentials {{error}}",
+    "invalidWorkspaceInvitationError": "Workspace full. Contact the owner.",
+    "errorAcceptingWorkspaceInvitation": "Something went wrong while accepting the invitation",
+    "errorWhileUpdatingWorkspaceMembers": "Something went wrong while updating the members",
+    "errorWhileFetchingCurrentWorkspaceMembers": "Something went wrong while fetching workspace members",
+    "newMembersCannotBeLessThanTheExistentOnesError": "Selected members cannot be fewer than current workspace members"
+  },
+  "actions": {
+    "undo": "Undo",
+    "upload": {
+      "new": "New",
+      "folder": "New folder",
+      "uploadFiles": "Upload files",
+      "uploadFolder": "Upload folder"
+    },
+    "change": "Change",
+    "delete": "Delete",
+    "download": "Download",
+    "downloading": "Downloading",
+    "downloadingItems": "Downloading {{nItems}} items...",
+    "downloaded": "Downloaded",
+    "view": "Preview",
+    "accessFile": "Access File",
+    "upgradeNow": "Upgrade now",
+    "purchasePlan": "Upgrade now",
+    "upgrade": "Upgrade",
+    "buyStorage": "Upgrade now",
+    "deleteAccount": "Permanently delete account",
+    "changePassword": "Change password",
+    "buy": "Buy",
+    "cancel": "Cancel",
+    "create": "Create",
+    "sendInvitation": "Send invitation",
+    "subscribe": "Subscribe",
+    "moreInfo": "More info",
+    "dismiss": "Dismiss",
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "saving": "Saving",
+    "share": "Share",
+    "back": "Back",
+    "edit": "Edit",
+    "submit": "Submit",
+    "access": "Access",
+    "previous": "Previous",
+    "next": "Next",
+    "disable": "Disable",
+    "move": "Move",
+    "moving": "Moving...",
+    "navigating": "Navigating...",
+    "restoreHere": "Restore here",
+    "rename": "Rename",
+    "restore": "Restore",
+    "copyLink": "Copy link",
+    "report": "Report abuse",
+    "yes": "Yes",
+    "no": "No",
+    "more": "More",
+    "continue": "Continue",
+    "keepCurrent": "Keep current",
+    "logOut": "Log out"
+  },
+  "drive": {
+    "usage": "Usage",
+    "currentPlan": "Current plan",
+    "loadingFile": "Loading preview",
+    "previewNoAvailable": "No preview available",
+    "pdfPage": "Page {{page}} of {{pages}}",
+    "list": {
+      "columns": {
+        "type": "Type",
+        "name": "Name",
+        "modified": "Modified",
+        "size": "Size",
+        "actions": "Actions"
+      }
+    },
+    "viewMode": {
+      "gridMode": "Grid view",
+      "listMode": "List view"
+    },
+    "dropdown": {
+      "openPreview": "Open preview",
+      "details": "Details",
+      "shareLink": "Share",
+      "shareTeam": "Share with team",
+      "shareWithWorkspace": "Share with workspace",
+      "manageLinkAccess": "Manage access",
+      "getLink": "Get link",
+      "rename": "Rename",
+      "share": "Share",
+      "manageAccess": "Manage access",
+      "download": "Download",
+      "moveToTrash": "Move to trash",
+      "copyLink": "Copy link",
+      "linkSettings": "Link settings",
+      "deleteLink": "Delete link",
+      "restore": "Restore",
+      "deletePermanently": "Delete permanently",
+      "move": "Move",
+      "delete": "Delete"
+    },
+    "deleteItems": {
+      "title": "Delete permanently?",
+      "advice": "This action cannot be undone.",
+      "accept": "Delete",
+      "progress": "Deleting..."
+    },
+    "clearTrash": {
+      "title": "Empty Drive Trash?",
+      "advice": "All items in the Drive Trash will be permanently deleted. This action cannot be undone.",
+      "accept": "Empty Trash",
+      "progress": "Emptying Trash..."
+    },
+    "uploadItems": {
+      "title": "Maximum file upload",
+      "advice": "The maximum is 3000 files per upload.",
+      "close": "Close"
+    },
+    "movingToTrash": "Moving items to trash",
+    "deletingItems": "Deleting items from trash"
+  },
+  "appSumo": {
+    "tiers": {
+      "internxt_tier1": "AppSumo Lifetime Tier 1",
+      "internxt_tier2": "AppSumo Lifetime Tier 2",
+      "internxt_tier3": "AppSumo Lifetime Tier 3",
+      "internxt_tier4": "AppSumo Lifetime Tier 4",
+      "internxt_tier5": "AppSumo Lifetime Tier 5",
+      "unlimited": "Lifetime Infinite Members"
+    },
+    "members": {
+      "internxt_tier1": "Team members: 1",
+      "internxt_tier2": "Team members: 5",
+      "internxt_tier3": "Team members: 10",
+      "internxt_tier4": "Team members: 25",
+      "internxt_tier5": "Team members: 100",
+      "unlimited": "Team members: {{total}}"
+    },
+    "plans": {
+      "advice": "You will be redirected to your AppSumo account"
+    }
+  },
+  "newsletter": {
+    "dialog": {
+      "title": "Subscribe to our newsletter",
+      "message": "Get the last news and updates right in your mail inbox"
+    }
+  },
+  "referrals": {
+    "items": {
+      "create-account": "Create an account",
+      "install-mobile-app": "Install mobile app and upload a file",
+      "share-file": "Share a file via link",
+      "subscribe-to-newsletter": "Subscribe to newsletter",
+      "install-desktop-app": "Install desktop app and upload a file",
+      "invite-friends": "Invite {{completedSteps}}/{{steps}} friends",
+      "invite-2-friends": "Invite {{completedSteps}}/{{steps}} friends"
+    },
+    "rewards": {
+      "title": "Get {{creditSum}} for free",
+      "progress": "Unlocked {{currentCredit}}",
+      "limit": "out of {{creditSum}}"
+    }
+  },
+  "errors": {
+    "downloadingDesktopApp": "Something went wrong while downloading the desktop app"
+  },
+  "tutorial": {
+    "signUpTutorial": {
+      "stepOne": {
+        "title": "Get the most out of Internxt Drive",
+        "description": "Download desktop app to sync and backup all your folders and files."
+      },
+      "stepTwo": {
+        "title": "Let's get started...",
+        "description": "Click Upload button to upload your first file."
+      }
+    }
+  },
+  "blockedAccount": {
+    "title": "Verify it’s you",
+    "text1": "Too many failed logins were attempted.",
+    "text2": "For security reasons we sent an email to your address {{email}} follow the email steps to confirm it’s you and login",
+    "forgotPassword": "I forgot my password",
+    "text3": "Didn’t received any email?",
+    "resend": "Resend"
+  },
+  "itemNotFound": {
+    "folder": {
+      "title": "Folder not found",
+      "description": "Make sure that the URL is correct and the folder hasn’t been moved or deleted."
+    },
+    "file": {
+      "title": "File not found",
+      "description": "Make sure that the URL is correct and the file hasn’t been moved or deleted."
+    }
+  },
+  "preferences": {
+    "title": "Preferences",
+    "general": {
+      "title": "General"
+    },
+    "workspace": {
+      "title": "Workspace",
+      "overview": {
+        "title": "Overview"
+      },
+      "members": {
+        "title": "Members",
+        "members": "Members",
+        "guests": "Invited",
+        "search": "Search members",
+        "invite": "Invite",
+        "inviteDialog": {
+          "title": "Invite to workspace",
+          "inputDescription": "Press enter, space or comma to separate emails",
+          "remove": "Remove",
+          "inviteUsersDescription": "Users without an Internxt account will receive an email to sign up before joining the workspace.",
+          "enterUserEmail": "Enter user email to invite",
+          "addMessage": "Add message",
+          "invite": "Invite"
+        },
+        "invitationFlow": {
+          "acceptedSuccessfully": "Workspace invitation successfully accepted",
+          "declinedSuccessfully": "Workspace invitation successfully declined",
+          "invitationSent": "Invitation sent successfully",
+          "error": {
+            "errorInviting": "Error sending invitation to {{email}}",
+            "acceptedError": "Error accepting invitation to workspace",
+            "declinedError": "Error declining invitation to workspace"
+          }
+        },
+        "list": {
+          "user": "User",
+          "usage": "Usage",
+          "storage": "Storage"
+        },
+        "role": {
+          "owner": "Owner",
+          "manager": "Manager",
+          "member": "Member",
+          "deactivated": "Deactivated"
+        },
+        "modifyStorageModal": {
+          "user": "User",
+          "storage": "Storage",
+          "spaceAssigned": "Space assigned",
+          "spaceLeft": "Total space left",
+          "cancel": "Cancel",
+          "saveChanges": "Save changes"
+        },
+        "deactivationModal": {
+          "title": "Deactivate member",
+          "description": "{{name}} will lose access to the Workspace. All their files and folders will stay the same.",
+          "deactivate": "Deactivate",
+          "deactivating": "Deactivating"
+        },
+        "reactivationModal": {
+          "title": "Reactivate member",
+          "description": "{{name}} will recovery access to the Workspace.",
+          "reactivate": "Reactivate",
+          "reactivating": "Reactivating"
+        },
+        "removalModal": {
+          "title": "Remove member",
+          "description": "{{name}} will lose access to the Workspace. All their files and folders will stay the same.",
+          "remove": "Remove",
+          "removing": "Removing"
+        },
+        "changePasswordModal": {
+          "title": "Request password change",
+          "description": "User will receive a recommendation to update their personal account password. Use this function in case you believe their password may have been breached.",
+          "inputPlaceholder": "Enter your message text (optional)",
+          "actionButton": "Send request"
+        },
+        "tabs": {
+          "activity": {
+            "name": "Activity",
+            "empty": "No activity",
+            "disabilitedOwner": {
+              "title": "Get started with Activity",
+              "subtitle": "Clear use insights for file and account management with activity log recording",
+              "action": "Enable Activity"
+            },
+            "disabilitedMember": {
+              "title": "Activity is disabled",
+              "subtitle": "Contact the workspace owner to enable Activity Logs for file and account management"
+            },
+            "roles": {
+              "title": "Roles",
+              "member": "Member",
+              "manager": "Manager",
+              "owner": "Owner"
+            },
+            "filter": {
+              "button": "Filter",
+              "title": "Filters",
+              "clear": "Clear",
+              "dateRange": {
+                "title": "Date range",
+                "7days": "Last 7 days",
+                "30days": "Last 30 days",
+                "90days": "Last 90 days"
+              }
+            }
+          },
+          "teams": {
+            "title": "Teams",
+            "role": "Role",
+            "emptyTeamsOwner": {
+              "title": "Get started with teams",
+              "subtitle": "Manage workspace members faster by grouping them into teams",
+              "action": "Create a team"
+            },
+            "emptyTeamsMember": {
+              "title": "No teams created yet",
+              "subtitle": "Workspace owner can manage members faster by grouping them into teams"
+            },
+            "emptyTeams": {
+              "title": "Not a member of any team"
+            }
+          }
+        },
+        "actions": {
+          "deactivate": "Deactivate member",
+          "leave": "Leave",
+          "modifyStorage": "Modify storage",
+          "reactivate": "Reactivate member",
+          "remove": "Remove member",
+          "passwordChange": "Request password change"
+        },
+        "leaveModal":{
+          "title": "Leave",
+          "description": "You will lose access to the Workspace and your content will be transferred to the owner",
+          "leave": "Leave",
+          "leaving": "Leaving"
+        }
+      },
+      "teams": {
+        "title": "Teams",
+        "createTeam": "Create team",
+        "team": "Team",
+        "members": "Members",
+        "createTeamDialog": {
+          "title": "New team",
+          "label": "Name",
+          "placeholder": "Enter team name",
+          "cancel": "Cancel",
+          "create": "Create",
+          "nameExists": "Team with this name already exists"
+        },
+        "teamDetails": {
+          "member": "Member",
+          "members": "Members",
+          "remove": "Remove",
+          "makeManager": "Make manager",
+          "addMember": "Add member",
+          "rename": "Rename",
+          "delete": "Delete"
+        },
+        "addMemberDialog": {
+          "title": "Add members",
+          "placeholder": "Search member",
+          "cancel": "Cancel",
+          "addMember": "Add member",
+          "addOneMember": "Add {{membersToInvite}} member",
+          "addMembers": "Add {{membersToInvite}} members"
+        },
+        "renameTeamDialog": {
+          "title": "Rename team",
+          "label": "Name",
+          "placeholder": "Enter new team name",
+          "cancel": "Cancel",
+          "rename": "Rename",
+          "nameExists": "Team with this name already exists"
+        },
+        "deleteTeamDialog": {
+          "title": "Delete team",
+          "description": "will be deleted and members of this team may lose access to files and folders shared with the team.",
+          "cancel": "Cancel",
+          "delete": "Delete Team"
+        },
+        "removeTeamMemberDialog": {
+          "title": "Remove member",
+          "description": "will lose access to files and folders shared with this team.",
+          "cancel": "Cancel",
+          "delete": "Remove"
+        },
+        "changeManagerDialog": {
+          "title": "Change manager",
+          "description": "will become the Manager of this team. Previous manager will be downgraded to Member of the team.",
+          "cancel": "Cancel",
+          "change": "Change"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "nextBillingDate": "Next billing date",
+        "planLimit": "Billed for {{planLimit}} plan",
+        "membersLabel": "members",
+        "subscription": "Subscription",
+        "perUser": "per user",
+        "lifetimeSubscription": {
+          "planType": "Lifetime",
+          "text": "No upcoming billings"
+        },
+        "freeSubscription": {
+          "planType": "Free",
+          "action": "Upgrade",
+          "actionDescription": "Increase your storage space and get more features"
+        },
+        "members": {
+          "title": "Members",
+          "editMembers": "Edit members",
+          "numberOfMembers": "Number of members",
+          "expandNumber": "Expand the number of members.",
+          "confirmUpdateModal": {
+            "title": "Change plan",
+            "confirmToProceed": {
+              "text1": "You are about to change your Internxt member plan from ",
+              "to": "to ",
+              "text2": ". Confirm your choice to proceed, please."
+            },
+            "current": "Current",
+            "new": "New",
+            "decreaseStorage": {
+              "text": "This will also decrease your total business storage from ",
+              "to": " to "
+            },
+            "increaseStorage": {
+              "text": "This will also increase your total business storage from ",
+              "to": " to "
+            }
+          }
+        },
+        "paymentMethod": {
+          "title": "Payment Method",
+          "editButton": "Edit payment method",
+          "freePlanTitle": "You are on a free {{planLimit}} plan",
+          "addButton": "Add payment method",
+          "empty": "No payment method associated"
+        },
+        "cancelSubscription": {
+          "title": "Cancel subscription",
+          "text": "Your Plan will be downgraded to the free tier.",
+          "button": "Cancel subscription"
+        },
+        "empty": {
+          "text": "No previous invoices"
+        }
+      },
+      "accessLogs": {
+        "filterActions": {
+          "title": "Filter",
+          "searchMembers": "Search members",
+          "filters": "Filters",
+          "clear": "Clear",
+          "activity": {
+            "title": "Activity",
+            "Login": "Signed in",
+            "ChangedPassword": "Changed password",
+            "Logout": "Signed out",
+            "ShareFile": "Shared file",
+            "ShareFolder": "Shared folder",
+            "DeleteFile": "Deleted file",
+            "DeleteFolder": "Deleted folder"
+          },
+          "platform": { "title": "Platform", "Web": "Web", "Mobile": "Mobile", "Desktop": "Desktop" },
+          "dateRange": {
+            "title": "Date range",
+            "days": "Last {{days}} days"
+          }
+        },
+        "headerTable": {
+          "date": "Date",
+          "member": "Member",
+          "activity": "Activity",
+          "access": "Access"
+        },
+        "noResults": "There are no results to show"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "inviteFriend": "Invite a friend",
+      "seeInvitations": "See Invitations",
+      "sendInvitationDescription": "Spread the word and get 1 GB per friend invited for free. You can get up to {{N}}GB in total.",
+      "sendInvitation": "Send invitation",
+      "enterFriendEmail": "Enter friend email",
+      "extraStorage": "Extra storage",
+      "invitedFriends": "Invited friends",
+      "friendsInvited": "Friends invited",
+      "acceptedRequests": "Accepted requests",
+      "user": "User",
+      "status": "Status",
+      "accepted": "Accepted",
+      "pending": "Pending",
+      "noInvitations": "No invitations sent yet",
+      "upgrade": "Upgrade",
+      "levelUpStorage": "Level up your storage space and get many other benefits",
+      "upgradeNow": "Upgrade now",
+      "emptyTrash": "Empty trash",
+      "emptyTrashDescription": "Items in trash will be deleted permanently",
+      "plans": {
+        "title": "Plans",
+        "current": "Current",
+        "upgrade": "Upgrade",
+        "downgrade": "Downgrade",
+        "free": "Get up to 10 GB for free",
+        "manageBilling": "Manage billing",
+        "freeForever": "Free forever",
+        "year": "Year",
+        "month": "Month",
+        "lifetime": "Lifetime",
+        "planFeaturesList": {
+          "title": "Plan details",
+          "storage": " of storage",
+          "featureOne": "Encrypted file and folder sharing.",
+          "featureTwo": "Password-protected file sharing.",
+          "featureThree": "Access your files from any device.",
+          "featureFour": "Upload files up to 40GB.",
+          "featureFive": "Two-factor authentication (2FA).",
+          "featureSix": "Premium customer support.",
+          "featureSeven": "30-day money-back guarantee."
+        },
+        "businessPlanFeaturesList": {
+          "title": "Plan details",
+          "storage": " of storage",
+          "featureOne": "Encrypted file and folder sharing.",
+          "featureTwo": "Create and manage users & teams.",
+          "featureThree": "Starting at 3 users and up to 100.",
+          "featureFour": "GDPR compliant.",
+          "featureFive": "Upload files of up to 40GB.",
+          "featureSix": "Manage account billing & payments.",
+          "featureSeven": "Premium customer support."
+        },
+        "user": "user"
+      },
+      "billing": {
+        "title": "Billing"
+      },
+      "security": {
+        "title": "Security"
+      }
+    },
+    "navBarSections": {
+      "general": "General",
+      "workspace": "Workspace",
+      "overview": "Overview",
+      "members": "Members",
+      "teams": "Teams",
+      "billing": "Billing",
+      "account": "Account",
+      "plans": "Plans",
+      "security": "Security",
+      "logs": "Logs"
+    }
+  },
+  "workspaces": {
+    "workspaces": "Workspaces",
+    "workspace": "Workspace",
+    "createWorkspace": "Create workspace",
+    "workspaceTypes": {
+      "personal": "Personal Workspace",
+      "business": "Business Workspace"
+    },
+    "pending": "Pending Invitations",
+    "messages": {
+      "sharedSuccess": "Item shared successfully with the team",
+      "switchingWorkspace": "Switching workspace"
+    },
+    "pendingInvitations": {
+      "empty": "No invitations left",
+      "title": "Pending invitations",
+      "accept": "Accept",
+      "deny": "Decline",
+      "invitedOn": "Invitation sent ",
+      "todayAt": "today at "
+    }
+  }
+}

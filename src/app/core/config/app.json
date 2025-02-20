@@ -1,0 +1,22 @@
+{
+  "debug": {
+    "enabled": false
+  },
+  "plan": {
+    "freePlanStorageLimit": 2147483648,
+    "maxStorageLimit": 108851651149824
+  },
+  "fileExplorer": {
+    "download": {
+      "folder": {
+        "method": "file-system-access-api"
+      }
+    },
+    "recentsLimit": 10
+  },
+  "database": {
+    "name": "app-database",
+    "version": 6,
+    "provider": "indexed-db"
+  }
+}

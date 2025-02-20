@@ -1,16 +1,68 @@
 name: Drive Web CI
 on:
-  push:
-    branches: [master]
   pull_request:
     branches: [master]
-
+env:
+  REACT_APP_STORJ_BRIDGE: ${{ secrets.REACT_APP_STORJ_BRIDGE }}
+  REACT_APP_CRYPTO_SECRET: ${{ secrets.REACT_APP_CRYPTO_SECRET }}
+  REACT_APP_STRIPE_PK: ${{ secrets.REACT_APP_STRIPE_PK }}
+  REACT_APP_STRIPE_TEST_PK: ${{ secrets.REACT_APP_STRIPE_TEST_PK }}
+  REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
+  REACT_APP_SEGMENT_KEY: ${{ secrets.REACT_APP_SEGMENT_KEY }}
+  REACT_APP_MAGIC_IV: ${{ secrets.REACT_APP_MAGIC_IV }}
+  REACT_APP_MAGIC_SALT: ${{ secrets.REACT_APP_MAGIC_SALT }}
+  REACT_APP_CRYPTO_SECRET2: ${{ secrets.REACT_APP_CRYPTO_SECRET2 }}
+  REACT_APP_RECAPTCHA_V3: ${{ secrets.REACT_APP_RECAPTCHA_V3 }}
+  GENERATE_SOURCEMAP: ${{ secrets.GENERATE_SOURCEMAP }}
+  CI: false
 jobs:
-  test:
+  tests:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://npm.pkg.github.com'
+      - run: echo REACT_APP_CRYPTO_SECRET=${{ secrets.REACT_APP_CRYPTO_SECRET }} >> ./.env
+      - run: echo REACT_APP_STRIPE_PK=${{ secrets.REACT_APP_STRIPE_PK }} >> ./.env
+      - run: echo REACT_APP_STRIPE_TEST_PK=${{ secrets.REACT_APP_STRIPE_TEST_PK }} >> ./.env
+      - run: echo REACT_APP_API_URL=${{ secrets.REACT_APP_API_URL }} >> ./.env
+      - run: echo REACT_APP_SEGMENT_KEY=${{ secrets.REACT_APP_SEGMENT_KEY }} >> ./.env
+      - run: echo REACT_APP_MAGIC_IV=${{ secrets.REACT_APP_MAGIC_IV }} >> ./.env
+      - run: echo REACT_APP_MAGIC_SALT=${{ secrets.REACT_APP_MAGIC_SALT }} >> ./.env
+      - run: echo REACT_APP_CRYPTO_SECRET2=${{ secrets.REACT_APP_CRYPTO_SECRET2 }} >> ./.env
+      - run: echo GENERATE_SOURCEMAP=${{ secrets.GENERATE_SOURCEMAP }} >> ./.env
+      - run: echo REACT_APP_RECAPTCHA_V3=${{ secrets.REACT_APP_RECAPTCHA_V3 }} >> ./.env
+      - run: echo REACT_APP_STORJ_BRIDGE=${{ secrets.REACT_APP_STORJ_BRIDGE }} >> ./.env
+      - run: echo REACT_APP_HOSTNAME=${{ secrets.REACT_APP_HOSTNAME }} >> ./.env
+      - run: echo REACT_APP_PROXY=${{ secrets.REACT_APP_PROXY }} >> ./.env
+      - run: echo REACT_APP_DONT_USE_PROXY=${{ secrets.REACT_APP_DONT_USE_PROXY }} >> ./.env
+      - run: echo REACT_APP_SENTRY_DSN=${{ secrets.REACT_APP_SENTRY_DSN }} >> ./.env
+      - run: echo REACT_APP_PAYMENTS_API_URL=${{ secrets.REACT_APP_PAYMENTS_API_URL }} >> ./.env
+      - run: echo REACT_APP_DRIVE_NEW_API_URL=${{ secrets.REACT_APP_DRIVE_NEW_API_URL }} >> ./.env
+      - run: echo REACT_APP_NODE_ENV=production >> ./.env
+      - run: echo "registry=https://registry.yarnpkg.com/" > .npmrc
+      - run: echo "@internxt:registry=https://npm.pkg.github.com" >> .npmrc
+      # You cannot read packages from other private repos with GITHUB_TOKEN
+      # You have to use a PAT instead https://github.com/actions/setup-node/issues/49
+      - run: echo //npm.pkg.github.com/:_authToken=${{ secrets.PERSONAL_ACCESS_TOKEN }} >> .npmrc
+      - run: echo "always-auth=true" >> .npmrc
+      - name: Install
+        run: yarn
+      - name: Install Playwright Browsers
+        run: yarn playwright install
+      - name: Unit test run
+        run: yarn test:unit
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [20.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -18,37 +70,21 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://npm.pkg.github.com'
-
-      # - name: Remove inxt-js private link
-      #   run: yarn remove inxt-js
       - run: echo "registry=https://registry.yarnpkg.com/" > .npmrc
       - run: echo "@internxt:registry=https://npm.pkg.github.com" >> .npmrc
       # You cannot read packages from other private repos with GITHUB_TOKEN
       # You have to use a PAT instead https://github.com/actions/setup-node/issues/49
       - run: echo //npm.pkg.github.com/:_authToken=${{ secrets.PERSONAL_ACCESS_TOKEN }} >> .npmrc
       - run: echo "always-auth=true" >> .npmrc
-      # - name: Add inxt-js package link
-      #   run: yarn add @internxt/inxt-js
-      - run: yarn
-      # - run: yarn run test
-      #   env:
-      #     CI: true # TODO: UNDO ASAP
+      - name: Install
+        run: yarn
       - name: Build
-        env:
-          REACT_APP_CRYPTO_SECRET: ${{ secrets.REACT_APP_CRYPTO_SECRET }}
-          REACT_APP_STRIPE_PK: ${{ secrets.REACT_APP_STRIPE_PK }}
-          REACT_APP_STRIPE_TEST_PK: ${{ secrets.REACT_APP_STRIPE_TEST_PK }}
-          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
-          REACT_APP_SEGMENT_KEY: ${{ secrets.REACT_APP_SEGMENT_KEY }}
-          REACT_APP_MAGIC_IV: ${{ secrets.REACT_APP_MAGIC_IV }}
-          REACT_APP_MAGIC_SALT: ${{ secrets.REACT_APP_MAGIC_SALT }}
-          REACT_APP_CRYPTO_SECRET2: ${{ secrets.REACT_APP_CRYPTO_SECRET2 }}
-          GENERATE_SOURCEMAP: ${{ secrets.GENERATE_SOURCEMAP }}
-          CI: false
         run: yarn build
+        env:
+          CI: false
       - name: Install netlify
-        run: npm install -g netlify
+        run: npm install -g netlify-cli
       - name: Deploy build
-        env: 
+        env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PAT }}
         run: DEBUG=* netlify deploy --dir=build

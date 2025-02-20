@@ -1,0 +1,7 @@
+*       @CandelR
+
+/src/app/network/ @internxt/cryptography
+/src/app/crypto/ @internxt/cryptography
+/src/app/core/services/stream.service.ts @internxt/cryptography
+/src/app/crypto/services/pgp.service.ts @internxt/cryptography
+/src/upload.worker.ts @internxt/cryptography
